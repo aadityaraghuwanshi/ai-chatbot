@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        " located",
+        "address?",
+        "Where can I find the college?",
+        " college location",
+        "reach the college?",
+        "location of the college?",
+        "Where is IET located?",
+        "What's the address of IET?"
+      ],
+      "responses": [
+        "The Institute of Engineering and Technology, Devi Ahilya Vishwavidyalaya, is located in Indore, Madhya Pradesh.",
+        "The college is situated in Indore, Madhya Pradesh. The address is Institute of Engineering and Technology, Devi Ahilya Vishwavidyalaya, Khandwa Road, Indore-452017 (M.P.)."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "admission process",
+        "admission",
+        "eligibility criteria for admission?",
+        " B.E. admissions",
+        "How to apply",
+        "enroll for B.E. programs?",
+        "Where can I find information about B.E. admissions?",
+        "When does the B.E. admission process start?",
+        "qualifications for admission?"
+      ],
+      "responses": [
+        "Admission to the B.E. programs is offered to candidates who have qualified in the 10+2 examination and appeared in the IIT-JEE examination. Admission process is in accordance with the rules and regulations of Directorate of Technical Education (DTE), Bhopal. Please regularly check the website of DTE Bhopal for updates.",
+        "The admission process for B.E. programs takes place through counselling conducted by DTE, Bhopal, and its nodal centers in MP. Regular candidates should have a valid GATE Score in the relevant/allied branch of Engg/Tech.",
+        "To know more about the admission process for B.E. programs, you can visit the official website of the college or contact the admission office for assistance."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses",
+        "programs",
+        "branches",
+        "branch",
+        "stream",
+        "available programs",
+        "Engineering program",
+        "specializations",
+        " majors",
+        " courses offered",
+        "engineering disciplines "
+      ],
+      "responses": [
+        "Our college, the Institute of Engineering and Technology (IET), offers a wide range of undergraduate (B.E.) and postgraduate (M.E., M.Sc.) programs in fields like Computer Engineering, Information Technology, and more! You can find details about specific B.E. branches like Mechanical or Electronics & Communication on the college website or by contacting the academic department directly."
+      ]
+    },
+    {
+      "tag": "cutoff_ranks",
+      "patterns": [
+        "cutoff ranks for admission?",
+        "cutoff rank",
+        "ranks for admission?",
+        "Tell me about the cutoff ranks for each branch"
+      ],
+      "responses": [
+        "The cutoff ranks for admission to Institute of Engineering and Technology vary by branch. Examples: Civil Engineering: 112542-141129 , Computer Science: 31414-39107, Electronics & Instrumentation:  71911-80565, Electronics & Telecommunication: 62110-69481, Information Technology:  46789-49553, Mechanical Engineering:99631-120414. Ranks vary yearly. For the latest information, visit the college website or contact the admission office."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees",
+        "payment",
+        "semester-wise fees",
+        "fee structure",
+        "information about the fees?"
+      ],
+      "responses": [
+        "The fee structure for Institute of Engineering and Technology, Devi Ahilya Vishwavidyalaya, Indore: 1st Semester Fees: ₹44,000 (Boys/Girls), 2nd Semester Fees: ₹38,211 (Boys)/₹37,833 (Girls). Fees are subject to change. Visit the college website for the latest information."
+      ]
+    },
+    {
+      "tag": "rankings",
+      "patterns": [
+        "college's rankings?",
+        " NIRF",
+        "college rank",
+        "NIRF rankings"
+      ],
+      "responses": [
+        "IET, Devi Ahilya Vishwavidyalaya, Indore ranked by NIRF: Overall (Latest): 151-200 (2022), Engineering (Latest): 251-300 (2021), University (Latest): 101-150 (2023). Rankings subject to change. Visit college website or NIRF for latest"
+      ]
+    },
+    {
+      "tag": "intake_strength",
+      "patterns": [
+        "intake strength for B.E. programs?",
+        "seats",
+        "seats available",
+        " seat distribution",
+        "intake capacity"
+      ],
+      "responses": [
+        "Branches: Mechanical Engineering (Full-Time) - 60, Computer Engineering (Full-Time) - 120, Electronics & Instrumentation Engineering (Full-Time) - 60, Information Technology (Full-Time) - 120, Electronics & Telecommunication Engineering (Full-Time) - 120, Civil Engineering (Full-Time) - 60. Total: 540. B.E. (Part-Time) 4-Year Degree Programs: Mechanical Engineering - 30, Computer Engineering - 30, Electronics & Instrumentation Engineering - 30, Information Technology - 30, Electronics & Telecommunication Engineering - 30. Total: 150."
+      ]
+    },
+    {
+      "tag": "festival",
+      "patterns": [
+        "Aakshank",
+        "cultural festival",
+        "fest"
+      ],
+      "responses": [
+        "Aakshank is the annual cultural festival of our college, Institute of Engineering & Technology, Devi Ahilya Vishwavidyalaya. It's a much-awaited event held around the end of February every year."
+      ]
+    },
+    {
+      "tag": "festival_history",
+      "patterns": [
+        "when did Aakshank start",
+        "history of Aakshank"
+      ],
+      "responses": [
+        "Aakshank's first edition was held in the year 2000. Since then, it has grown in popularity and participation every year."
+      ]
+    },
+    {
+      "tag": "festival_events",
+      "patterns": [
+        "what happens in Aakshank",
+        "Aakshank events",
+        "what's in Aakshank",
+        "Aakshank fest activities"
+      ],
+      "responses": [
+        "Aakshank offers a variety of events, including celebrity performances, competitions, and fun activities. We've had renowned artists like Kailash Kher, KK, and Mohammed Irfan perform in the past. There are also exciting activities like paint ball, zorbing, and gaming competitions.",
+        " From captivating performances by renowned artists like Kailash Kher, KK, and Mohammed Irfan to thrilling competitions and exhilarating activities like paintball and zorbing, this festival promises a fun-filled experience you won't forget.",
+        " Aakshank has something for everyone. Witness iconic artists like Kailash Kher, KK, and Mohammed Irfan take the stage, compete in exciting events, or unwind with exhilarating activities like paintball and zorbing.",
+        "Aakshank is more than just a festival, it's an experience! Immerse yourself in the electrifying atmosphere with live performances by celebrated artists, test your skills in competitions like dance-offs and gaming challenges, or simply relax with fun activities like paintball and zorbing."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship",
+        "financial aid",
+        "tuition assistance"
+      ],
+      "responses": [
+        "Our college offers scholarships to deserving students. Here's a quick overview: **Mukhyamantri Medhavi Vidyarthi Yojana (MMVY):** This scholarship is available for students scoring 70% or above in MP Board Class 12th exams and 85% or above in CBSE Board Class 12th exams. **Other Scholarships:** Scholarships are also available for students belonging to SC, ST, and OBC categories.  For details on these scholarships and the application process, please visit the college website or contact the admissions office."
+      ]
+    }
+
+  ]
+}
